@@ -11,8 +11,4 @@ import java.util.List;
 @Repository
 public interface UsuarioDao extends CrudRepository<Usuario, Integer> {
 
-
-    List<Usuario> findAll();
-
-
 }

@@ -42,17 +42,5 @@ public class Controlador {
         view.addObject("respuesta", respuesta);
         return view;
 
-
-
     }
-
-    @RequestMapping("/listaUsuarios")
-    public ModelAndView listaUsuarios() {
-        List<Usuario> listaUsuarios = usuarioDao.findAll();
-
-        ModelAndView view = new ModelAndView("listaUsuarios");
-        view.addObject("listaUsuarios", listaUsuarios);
-        return view;
-    }
-
 }

@@ -14,6 +14,13 @@ public class Usuario {
     @Column(name = "nombreUsuario")
     private String nombre;
 
+    @Column(name = "contraseña_usuario")
+    private String contraseña;
+
+    @Column(name = "es_administrador")
+    private boolean esAdministrador;
+
+
     public int getIdUsuario() {
         return idUsuario;
     }
