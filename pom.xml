@@ -14,7 +14,7 @@
     <artifactId>CRUDApp</artifactId>
     <version>0.0.1</version>
     <name>CRUDApp</name>
-    <description>Hola mundo CRUD</description>
+    <description>CRUD Pasajeros</description>
     <packaging>war</packaging>
 
     <properties>
@@ -38,7 +38,6 @@
             <artifactId>spring-security-core</artifactId>
         </dependency>
 
-
         <dependency>
             <groupId>com.github.jknack</groupId>
             <artifactId>handlebars-springmvc</artifactId>
@@ -49,7 +48,7 @@
         <dependency>
             <groupId>com.mysql</groupId>
             <artifactId>mysql-connector-j</artifactId>
-            <version>8.1.0</version>
+            <version>8.2.0</version>
         </dependency>
     </dependencies>
 
